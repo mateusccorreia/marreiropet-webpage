@@ -7,9 +7,11 @@ padding: 0;
 .logo {
     cursor: pointer;
     margin-right: auto;
-    object-fit: cover;
+    width: 250px;
+    height: 160px;
     position: relative;
-    top: 20px;
+    top: -15px;
+    left: 100px;
 }
 
 .navbar {
@@ -21,11 +23,16 @@ padding: 0;
     justify-content: space-between;
 }
 
+.navbar ul {
+    align-items: left;
+}
+
 .search {
-   width: 800px; 
+   width: 500px; 
    display: flex;
    margin-bottom: 20px;
    position: relative;
+   left: 100px;
 }
 
 .search-box{
@@ -38,7 +45,8 @@ padding: 0;
     color: #a9a9a9;
     outline: none;
     position: relative;
-    right: -50px;
+    top: -10px;
+    left: 15px;
 }
 
 .search-box::placeholder{
@@ -54,7 +62,12 @@ li, a, button {
 }
 
 ul {
-    list-style: none;
+    list-style: none; 
+    padding-top: 4px;   
+}
+
+.nav-links {
+    width: 500px;
 }
 
 .nav-links li {
@@ -75,7 +88,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background: #ffffff;
-    text-decoration: none;
+    text-decoration: none;    
 }
 
 button {
@@ -83,17 +96,20 @@ button {
     padding: 9px 25px;
     background-color: #EF7720;
     border: none;
-    border-radius: 10px;
+    border-radius: 10px !important;
     cursor: pointer;
     transition: all 0,3s ease 0s;
     color: #ffffff;
     position: relative;
+    right: -80px;
+    top: -10px;
 }
 
-.to-schedule {
+.login {
     height: 3rem;
     padding: 0.75rem 1rem;
     min-width: 7.5rem;
+    left: -70px;
 }
 
 
