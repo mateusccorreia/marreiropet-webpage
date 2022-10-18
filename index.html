@@ -24,7 +24,7 @@
                     <li> <a href="#">Sobre Nós</a></li>
                     <li> <a href="#">Serviços</a></li>
                     <li> <a href="#">Lojas</a></li>
-                    <li> <a href="#">Banho & Tosa</a></li>
+                    <li> <a href="#">Banho & Tosa</a></li>                    
                 </ul>
             </div>
             <div class="login-container">
@@ -33,31 +33,16 @@
         </nav>
     </header>
 
-    <style>
-        .carousel-item {
-            height: 32rem;
-            background: #777;
-            color: white;
-            position: relative;
-        }
-
-        .container {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-        }
-
-    </style>
-
     <section>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
+        <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">                
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active" data-interval="2000" >
+                    <div class="overlay-image" style="background-image:url(./assets/marreiro-sga.jpeg);"></div>
                     <div class="container">
                         <h1>Headline</h1>
                         <p>
@@ -68,7 +53,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-interval="1000" > 
+                    <div class="overlay-image" style="background-image:url(./assets/pet-shop1.webp);"></div>
                     <div class="container">
                         <h1>Headline</h1>
                         <p>
@@ -79,10 +65,26 @@
                         </a>
                     </div>
                 </div>
+                <div class="carousel-item" data-interval="500" >
+                    <div class="overlay-image" style="background-image:url(./assets/pet-shop2.jpg);"></div>
+                    <div class="container">
+                        <h1>Headline</h1>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                        <a href="#" class="btn btn-lg btn-primary">
+                            Outro
+                        </a>
+                    </div>
+                </div>
             </div>
             <a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
                 <span class="sr-only">Previous</span>
-                <span class="carousel-control-prev-icon"></span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+                <span class="sr-only">Next</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
             </a>
         </div>
 
