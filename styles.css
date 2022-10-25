@@ -233,3 +233,13 @@ section {
       max-width: 33.33%;
     }
   }
+
+  .features-image-loja {
+    float: left;
+    width: 60%;
+  }
+
+  .features-info-loja {
+    float: right;
+    width: 37%;
+  }
