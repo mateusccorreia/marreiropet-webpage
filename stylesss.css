@@ -1,0 +1,260 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+} */
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    width: 250px;
+    height: 160px;
+    position: relative;
+    left: 100px;
+    float: left;
+}
+
+.navbar {
+    top: 0px;
+    left: 0;
+    padding: 10px;
+    display: flex;    
+    justify-content: space-between;
+} */
+
+.navbar ul {
+    align-items: left;
+}
+
+/* .search {
+   width: 500px; 
+   display: flex;
+   margin-bottom: 20px;
+   position: relative;
+   left: 120px;
+   top: 15px;
+}
+
+/* .search-box{
+    width: 400px;
+    height: 48px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #d1d1d1;
+    background: none;
+    color: #a9a9a9;
+    outline: none;
+    position: relative;
+    top: -10px;
+    left: 15px;
+} */
+
+/* .search-box::placeholder{
+    color: #a9a9a9;
+} */
+
+/* li, a, button {
+    font-family: "Monteserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #0641B6;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none; 
+    padding-top: 4px;   
+} */
+
+/* .nav-links {
+    width: 500px;   
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0,3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #DB712E;
+} */
+
+/* header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    text-decoration: none;    
+} */
+
+/* button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #EF7720;
+    border: none;
+    border-radius: 10px !important;
+    cursor: pointer;
+    transition: all 0,3s ease 0s;
+    color: #ffffff;
+    position: relative;
+    right: -80px;
+    top: -10px;
+}
+
+.login {
+    height: 3rem;
+    padding: 0.75rem 1rem;
+    min-width: 7.5rem;
+    left: -70px;
+}
+
+.carousel-item {
+    height: 32rem;
+    background: #000;
+    color: white;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+
+/* This is about the "our services" section */
+/* section {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    width: 100%;
+    padding: 0 1em 1em 1em;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    height: 100%;
+    padding: 2em 1.5em;
+    background: linear-gradient(#ffffff 50%, #EF7720 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1f194c;
+    margin: 1em 0;
+  }
+
+  p {
+    color: #575a7b;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+  }
+
+  .icon-wrapper {
+    background-color: #EF7720;
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+  }
+
+  .card:hover {
+    background-position: 0 100%;
+  }
+
+  .card:hover .icon-wrapper {
+    background-color: #ffffff;
+    color: #2c7bfe;
+  }
+
+  .card:hover h3 {
+    color: #ffffff;
+  }
+
+  .card:hover p {
+    color: #f0f0f0;
+  }
+
+  @media screen and (min-width: 768px) {
+    section {
+      padding: 0 2em;
+    }
+    .column {
+      flex: 0 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    section {
+      padding: 1em 3em;
+    }
+    .column {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+    }
+  }
+
+  .features-image-loja {
+    float: left;
+    width: 60%;
+  }
+
+  .features-info-loja {
+    float: right;
+    width: 37%;
+  }
+
+ body {
+  position: relative;
+ }
+ 
+ .footer-section-links {
+  height: 350px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  margin-top: -50px;
+ } */
