@@ -6,7 +6,11 @@ img {
     border-radius: 20px;
 }
 
-button {
-    color: #EF7720;
+.btn:hover {
+    background-color: #EF7720; 
+    color: #fff;
 }
 
+.nav-link {
+    font-size: 20px;
+}
