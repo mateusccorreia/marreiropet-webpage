@@ -26,3 +26,32 @@ img {
         font-size: 12px;
     }
 }
+
+/*shop section*/
+.shops {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 60vw;
+}
+.shop-info p {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.img-shop {
+    max-width: 450px;
+    margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+    .shops {
+        display: block;
+        text-align: center;
+        max-width: 80vw;
+    }
+}
