@@ -7,11 +7,17 @@
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
+    align-items: center;
 }
 
 .logo {
     display: flex;
     align-items: center;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
 }
 
 .nav-list {
@@ -57,7 +63,11 @@
     display: none;
 }
 
+/*Styles about the mobile menu*/
 @media screen and (max-width: 730px) {
+    .logo img {
+        width: min(50vw, 100%);
+    }
     .nav-bar {
         padding: 1.5rem 4rem;
     }
@@ -95,8 +105,15 @@
     .open {
         display: block;
     }
+    .logo img {
+        width: 10rem;
+        border-radius: 0 !important;
+    }
 }
 
+.carousel-inner {
+    border-radius: 20px !important;
+}
 
 .container {
     margin: 60px;
